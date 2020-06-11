@@ -12,21 +12,15 @@ L.tileLayer(`https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 	tileSize: 512,
 	zoomOffset: -1
 }).addTo(mymap);
-
-
-var xalapaIcon = L.icon({
-	iconUrl: 'images/xalapaMarker.png',
-	iconSize: [18, 31], 
-});
-
-/*function creaIcono(ruta, width, height) {
+//inicio de la funcion encargada de los iconos
+function creaIcono(ruta, width, height) {
 	var icono = L.icon({
 		iconUrl: ruta,
 		iconSize: [width, height], 
 	});
 	return icono;
-}*/
-
+}
+//fin de la funcion que crea imagenes
 var locations = {
 	'acayucan': {
 		'titulo': 'Acayucan',
