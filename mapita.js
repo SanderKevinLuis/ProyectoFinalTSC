@@ -14,8 +14,6 @@ L.tileLayer(`https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 }).addTo(mymap);
 
 
-
-
 function creaIcono(ruta, width, height) {
 	var icono = L.icon({
 		iconUrl: ruta,
