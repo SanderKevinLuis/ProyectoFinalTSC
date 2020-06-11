@@ -31,10 +31,7 @@ var locations = {
 	'acayucan': {
 		'titulo': 'Acayucan',
 		'coordenadas': [17.94919, -94.91459],
-<<<<<<< HEAD
 		'icon': creaIcono('images/acayucan.png', 18, 31)
-=======
->>>>>>> parent of 7d094b3... Update mapita.js
 	},
 	'alvarado': {
 		'titulo': 'Alvarado',
