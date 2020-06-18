@@ -1,2 +1,2 @@
 # ProyectoFinalTSC
-hola este es el enlace a nuestra pagina web https://github.com/SanderKevinLuis/ProyectoFinalTSC/index.html
+hola este es el enlace a nuestra pagina web <a url="https://github.com/SanderKevinLuis/ProyectoFinalTSC">clik</a>
